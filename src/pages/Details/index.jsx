@@ -9,6 +9,7 @@ import { GoClock } from "react-icons/go";
 import { Rating } from "../../components/Rating";
 import { Tag } from "../../components/Tag";
 import { useAuth } from "../../hooks/auth";
+import AvatarPlaceHolder from "../../assets/profile.png"
 
 export function Details() {
   const { user } = useAuth()
