@@ -35,7 +35,7 @@ export function Profile() {
       old_password: passwordOld
     }
 
-    const userUpdated = Object.assign(updated, user)
+    const userUpdated = Object.assign(user, updated)
 
     await updateProfile({ user: userUpdated, avatarFile })
   }
