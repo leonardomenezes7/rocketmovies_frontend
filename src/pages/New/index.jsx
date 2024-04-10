@@ -23,7 +23,7 @@ export function New() {
   }
 
   function handleAddTag() {
-    if(!newTag) {
+    if(!newTag ) {
       return
     }
 
@@ -36,8 +36,12 @@ export function New() {
   }
 
   async function handleNewMovie() {
-    if(!title || !description || !rating) {
-      return alert("Os campos de título, observações e nota são obrigatórios.")
+    if(!title || !description || !rating ) {
+      return alert("Preencha todos os campos")
+    }
+
+    if(tags.length === 0) {
+      return alert("Adicione tags para o filme.")
     }
 
     if(newTag) {
