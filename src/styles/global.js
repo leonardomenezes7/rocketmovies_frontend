@@ -43,7 +43,6 @@ export default createGlobalStyle`
   a {
     text-decoration: none;
     width: fit-content;
-    color: none;
   }
 
   button, a {
