@@ -5,8 +5,8 @@ export const Container = styled.button`
   background-color: ${({ theme }) => theme.colors.pink};
   border: none;
   border-radius: 10px;
-  padding: 1.6rem;
-  margin-top: 2.4rem;
+  padding: 1rem;
+  margin-top: 1.5rem;
   display: flex;
   align-items: center;
   justify-content: center;
