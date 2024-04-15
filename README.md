@@ -37,7 +37,7 @@ RocketMovies is an application built on React.js that offers users a complete fi
 - Axios
 
 ## How to run🚀
-````git clone git@github.com:leonardomenezes7/rocketmovies_frontend.git````
+```git clone git@github.com:leonardomenezes7/rocketmovies_frontend.git```
 
 
 
