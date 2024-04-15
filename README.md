@@ -10,6 +10,7 @@ RocketMovies is an application built on React.js that offers users a complete fi
 ![rocket_movies-new](https://github.com/leonardomenezes7/rocketmovies_frontend/assets/145611761/40a5cead-e563-4a61-b24c-762ff2bcc053)
 ![rocket_movies_details](https://github.com/leonardomenezes7/rocketmovies_frontend/assets/145611761/1508e550-91e6-4290-a4eb-1b90e2f72465)
 ![rocket_movies_profile](https://github.com/leonardomenezes7/rocketmovies_frontend/assets/145611761/432dd7a2-9480-4973-95af-29847214bc43)
+![rocketnotes_mobile](https://github.com/leonardomenezes7/rocketmovies_frontend/assets/145611761/d87f26c2-adb4-445f-8647-eb9f20eb735b)
 
 [Figma Layout](https://www.figma.com/file/rqqip3ueAFqYsoaMfiUmiR/RocketMovies-(Copy)?type=design&node-id=0-1&mode=design&t=KI39e3PPWUCkheZ8-0)
 
@@ -22,6 +23,7 @@ RocketMovies is an application built on React.js that offers users a complete fi
 - Add movie tags
 - Delete notes
 - Search Notes
+- Responsive Layout
 - CRUD
 - Clean Code
 - Project Architecture
