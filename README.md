@@ -48,9 +48,14 @@ $ cd rocketmovies_frontend
 # Install necessary dependencies
 $ npm install
 
+# Run
+$ npm run dev
+
 ```
 
-
+Note: As it is hosted on a free service, the BackEnd "hibernates" after 15 minutes of non-use.
+If you are trying to access the website and the BackEnd does not respond, just wait as it will be "initializing" the services.
+This step may take up to 1 minute, depending on the load on the Render servers.
 
 
 ### Developed by Leonardo Menezes
