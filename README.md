@@ -38,15 +38,15 @@ RocketMovies is an application built on React.js that offers users a complete fi
 
 ## How to run🚀
 
-```
+```bash
 # Clone the project to the desired location on your computer.
-git clone git@github.com:leonardomenezes7/rocketmovies_frontend.git
+$ git clone git@github.com:leonardomenezes7/rocketmovies_frontend.git
 
 # Navigate to the directory
-cd rocketmovies_frontend
+$ cd rocketmovies_frontend
 
 # Install necessary dependencies
-npm install
+$ npm install
 
 ```
 
