@@ -18,7 +18,7 @@ export default createGlobalStyle`
 
   ::-webkit-scrollbar {
     background: none;
-    width: 0.8rem;
+    width: 0.5rem;
   }
 
   ::-webkit-scrollbar-thumb {

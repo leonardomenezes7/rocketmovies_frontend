@@ -4,7 +4,7 @@ export const Container = styled.span`
   background-color: ${({ theme, isnew }) => isnew ? "transparent" : theme.colors.input_bg};
   color: ${({ theme, isnew }) => isnew ? "transparent" : theme.colors.input_bg};
   border: ${({ theme, isnew }) => isnew ? `2px dashed ${theme.colors.input_color}` : "none"};
-  padding: 1.6rem;
+  padding: 1rem;
   border-radius: 10px;
   display: flex;
 
@@ -17,7 +17,7 @@ export const Container = styled.span`
     align-items: center;
 
     svg {
-      font-size: 2.4rem
+      font-size: 1.5rem;
     }
   }
 

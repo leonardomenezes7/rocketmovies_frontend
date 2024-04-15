@@ -1,4 +1,6 @@
 import styled from "styled-components";
+import { DEVICE_BREAKPOINTS } from "../../styles/deviceBreakpoints"
+
 
 export const Container = styled.div`
   height: 100vh;
@@ -6,41 +8,45 @@ export const Container = styled.div`
 
   > header {
     width: 100%;
-    height: 14.4rem;
+    height: 9rem;
     background-color: ${({ theme }) => theme.colors.transparent_pink};
     display: flex;
     align-items: center;
 
     > a {
-      margin-left: 14.4rem;
+      margin-left: 9rem;
       display: flex;
       align-items: center;
       color: ${({ theme }) => theme.colors.pink};
+
+      @media (max-width: ${DEVICE_BREAKPOINTS.MD}) {
+        margin-left: 3rem;
+      }
     }
   }
 `
 
 export const Avatar = styled.div`
-  height: 18.6rem;
-  width: 18.6rem;
-  margin: -9.3rem auto;
+  height: 11.62rem;
+  width: 11.62rem;
+  margin: -5.81rem auto;
   position: relative;
 
   > img {
-    height: 18.6rem;
-    width: 18.6rem;
+    height: 11.62rem;
+    width: 11.62rem;
     border-radius: 50%;
   }
 
   > label {
     position: absolute;
     bottom: 0;
-    right: 1rem;
+    right: 0.62rem;
     background-color: ${({ theme }) => theme.colors.pink};
-    padding: 1.4rem;
+    padding: 0.87rem;
     border-radius: 50%;
-    width: 4.8rem;
-    height: 4.8rem;
+    width: 3rem;
+    height: 3rem;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -50,13 +56,13 @@ export const Avatar = styled.div`
     }
 
     svg {
-      font-size: 2.4rem;
+      font-size: 1.5rem;
       color: ${({ theme }) => theme.colors.tag_bg};
     }
   }
 `
 
 export const Form = styled.form`
-  width: 34rem;
-  margin: 15.7rem auto;
+  width: 21.25rem;
+  margin: 9.81rem auto;
 `
