@@ -36,4 +36,10 @@ RocketMovies is an application built on React.js that offers users a complete fi
 - Figma
 - Axios
 
+## How to run🚀
+``
+git clone git@github.com:leonardomenezes7/rocketmovies_frontend.git
+
+``
+
 ### Developed by Leonardo Menezes
